@@ -1,0 +1,77 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron {
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+@keyframes chi {
+    0% {
+        background-color: rgba(255, 255, 255, 0.1)
+    }
+    25% {
+        background-color: rgba(200, 200, 200, 0.25)
+    }
+    50% {
+        background-color: rgba(100, 100, 100, 0.25)
+    }
+    75% {
+        background-color: rgba(50, 05, 50, 0.25)
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.25)
+    }
+}
+
+.jumbotron:hover {
+    animation: chi 1s linear alternate 1s infinite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    max-width: 140px;
+    border-width: 7px;
+    border-color: white;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: 1000;
+    font-variant: small-caps;
+    border: 1px solid white;
+    box-shadow: 1px 1px 15px lightgray;
+}
+
+.btn:hover {
+    background-color: white;
+    color: darkblue;
+    border: 1px solid white;
+    box-shadow: 1px 1px 15px lightgray;
+}
+
+.impi {
+    display: flex;
+    justify-content: center;
+}
